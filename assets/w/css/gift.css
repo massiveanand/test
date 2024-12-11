@@ -1,0 +1,123 @@
+:root {
+    --red: #9e0000;
+    --white: #ffffff;
+    --black: #000000;
+    --yellow: #8f7749;
+    --light-yellow:#f5eeae;
+}
+
+.input-number {
+    width: 80px;
+    padding: 0 12px;
+    vertical-align: top;
+    text-align: center;
+    outline: none;
+}
+
+.input-number,
+.input-number-decrement,
+.input-number-increment {
+    border: 1px solid #ccc;
+    height: 40px;
+    user-select: none;
+    margin-right: -4px;
+}
+
+.input-number-decrement,
+.input-number-increment {
+    display: inline-block;
+    width: 30px;
+    line-height: 38px;
+    background: #f1f1f1;
+    color: #444;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-number-decrement:active,
+.input-number-increment:active {
+    background: #ddd;
+}
+
+.input-number-decrement {
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+}
+
+.input-number-increment {
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+}
+
+
+/* discount badge starts */
+
+.star-rating {
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+#shop-discount {
+    top: 0px;
+    right:auto;
+    left: 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.product-card .badge {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 5;
+}
+
+.badge-danger.badge-shadow {
+    box-shadow: 0 0.5rem 1.125rem -0.275rem rgba(243, 71, 112, 0.9);
+}
+
+.badge-danger,
+.badge-dark {
+    color: #fff;
+}
+
+.card{
+    min-height: 0.01px;
+}
+
+.align-middle {
+    vertical-align: middle !important;
+}
+
+.badge-danger {
+    color: #fff;
+    background-color: #f34770;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.5em 0.8em;
+    font-size: 75%;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.175rem;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out, border-color 0.25s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.star-rating {
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+small {
+    font-weight: inherit;
+}
+
+/* discount badge ends  */
