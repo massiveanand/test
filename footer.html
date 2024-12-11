@@ -1,0 +1,189 @@
+<div id="modalBackDrop"></div>
+<div class="toast-container toast-top-center">
+	<div class="toast mb-3" id="cart-toast" data-delay="3000" role="alert" aria-live="assertive" aria-atomic="true">
+		<div class="toast-header bg-success text-white"><i class="czi-check-circle mr-2"></i>
+			<h6 class="font-size-sm text-white mb-0 mr-auto">Added to cart!</h6>
+			<button class="close text-white ml-2 mb-1" type="button" data-dismiss="toast" aria-label="Close"><span
+					aria-hidden="true">&times;</span></button>
+		</div>
+		<div class="toast-body">This item has been added to your <a href=''>Cart</a>.</div>
+	</div>
+</div>
+<div class="toast-container toast-top-center">
+	<div class="toast mb-3" id="wish-toast" data-delay="2000" role="alert" aria-live="assertive" aria-atomic="true">
+		<div class="toast-header bg-success text-white"><i class="czi-check-circle mr-2"></i>
+			<h6 class="font-size-sm text-white mb-0 mr-auto">Added to Wishlist!</h6>
+			<button class="close text-white ml-2 mb-1" type="button" data-dismiss="toast" aria-label="Close"><span
+					aria-hidden="true">&times;</span></button>
+		</div>
+		<div class="toast-body wishtoast-body"></div>
+	</div>
+</div>
+<div class="toast-container toast-top-center">
+	<div class="toast mb-3" id="error-toast" data-delay="2000" role="alert" aria-live="assertive" aria-atomic="true">
+		<div class="toast-header bg-danger text-white"><i class="czi-check-circle mr-2"></i>
+			<h6 class="font-size-sm text-white mb-0 mr-auto">Oops !</h6>
+			<button class="close text-white ml-2 mb-1" type="button" data-dismiss="toast" aria-label="Close"><span
+					aria-hidden="true">&times;</span></button>
+		</div>
+		<div class="toast-body" id="error-toast-msg"></div>
+	</div>
+</div>
+<!-- Footer-->
+<footer class="bg-dark pt-5 footer_color">
+	<div class="container">
+		<div class="row pb-2">
+			<div class="col-md-4">
+				<div class="widget pb-2 mb-4">
+					<h3 class="widget-title text-light pb-1">Stay informed</h3>
+					<form action="" method="get" id="newsletter_form" style="height: 81px;">
+						<div class="input-group input-group-overlay flex-nowrap">
+							<div class="input-group-prepend-overlay"><span
+									class="input-group-text text-muted font-size-base"><i class="czi-mail"></i></span>
+							</div>
+							<input class="form-control prepended-form-control" type="email" name="email" value=""
+								placeholder="Your email" required>
+							<div class="input-group-append">
+								<button class="btn btn-primary2" type="button" name="subscribe"
+									id="btn-subscribe">Subscribe*</button>
+							</div>
+
+						</div>
+						<small class="form-text opacity-50" id="mc-helper" style="color:#000">*Subscribe to our
+							newsletter to receive early discount offers, updates and new products info.</small>
+						<div id="subresult"></div>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-4 col-6">
+				<div class="widget widget-links widget-light pb-2 mb-4">
+					<h3 class="widget-title text-light">Quick Links</h3>
+					<ul class="widget-list">
+						<li class="widget-list-item"><a class="widget-list-link" href="">About us</a></li>
+						<li class="widget-list-item"><a class="widget-list-link" href="">Contact us</a></li>
+						<li class="widget-list-item"><a class="widget-list-link" href="">Privacy Policy</a></li>
+						<li class="widget-list-item"><a class="widget-list-link" href="">FAQ</a></li>
+						<li class="widget-list-item"><a class="widget-list-link" href="">Blog</a></li>
+						<li class="widget-list-item"><a class="widget-list-link" href="">T&Cs</a></li>
+						<li class="widget-list-item"><a class="widget-list-link" href="">Artist T&Cs</a></li>
+						<li class="widget-list-item"><a class="widget-list-link" href="">Help for Artists</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-4 col-6">
+				<div class="widget widget-links widget-light pb-2 mb-4">
+					<h3 class="widget-title text-light">Account &amp; shipping info</h3>
+					<ul class="widget-list">
+						<li class="widget-list-item"><a class="widget-list-link" href="">Your Account</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<div class="bg-darker">
+		<div class="container">
+			<hr class="hr-dark pb-4 mb-3">
+			<div class="row pb-2">
+				<div class="col-md-6 text-center text-md-left mb-4">
+					<div class="text-nowrap mb-4">
+						<a class="d-inline-block align-middle mt-n1 mr-3" href="#">
+							<img class="d-block" width="150" src="assets/logo/IACG.png" alt="" />
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 text-center text-md-right mb-4">
+					<div class="mb-3">
+						<a class="social-btn sb-light sb-facebook ml-2 mb-2" href="https://www.facebook.com"
+							target="_blank"><i class="czi-facebook"></i></a>
+						<a class="social-btn sb-light sb-instagram ml-2 mb-2" href="https://www.instagram.com/"
+							target="_blank"><i class="czi-instagram"></i></a>
+						<a class="social-btn sb-light sb-instagram ml-2 mb-2" href="https://x.com/" target="_blank"><i
+								class="czi-twitter"></i></a>
+						<a class="social-btn sb-light sb-instagram ml-2 mb-2" href="https://in.pinterest.com/"
+							target="_blank"><i class="czi-pinterest"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="pb-4 font-size-xs text-light text-center text-md-center">
+				<span class="opacity-50">All rights reserved © </span><a href=""
+					style="color:#e7163e ;font-weight:bold;">ArtGallery 2024</a>
+
+			</div>
+		</div>
+</footer>
+
+<a class="btn-scroll-top" href="#top" data-scroll><span
+		class="btn-scroll-top-tooltip text-muted font-size-sm mr-2">Top</span><i
+		class="btn-scroll-top-icon czi-arrow-up"> </i></a>
+<!-- Overlay -->
+<div class="w3-overlay w3-animate-opacity" onclick="side_close()" id="myOverlay" style="cursor:pointer"></div>
+<style>
+	.w3-overlay {
+		position: fixed;
+		display: none;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 2
+	}
+
+	.w3-animate-opacity {
+		animation: opac 0.8s;
+	}
+
+	.widget .widget-title {
+		color: #e7163e !important;
+		font-weight: bold;
+	}
+</style>
+<script src="assets/w/js/vendor.min.js"></script>
+<script src="assets/w/js/image-hover.js" id="hoverscript"></script>
+<script src="assets/w/js/theme.min.js"></script>
+<script src="assets/w/js/typeahead.js"></script>
+<script src="assets/w/js/custom.js?ver=43"></script>
+<script src="assets/w/js/gift.js?ver=41"></script>
+<div class="fabnav" id="whatsapp">
+	<a href="" target="_blank"><img src="" style="height:40px;" alt="whatsapp"></a>
+</div>
+<div class="fabnav" id="phone">
+	<a href=""><i class="fa czi-phone" style="color: #0164e1"></i></a>
+</div>
+<div class="fabnav" id="mail">
+	<a href=""><i class="czi-mail" style="color:red"></i></a>
+</div>
+<div id="faboverlay"></div>
+<script>
+	$('#hamburger').click(function () {
+		$('#hamburger').toggleClass('show');
+		$('#faboverlay').toggleClass('show');
+		$('.fabnav').toggleClass('show');
+	});
+	$('#faboverlay').click(function () {
+		$('#hamburger').toggleClass('show');
+		$('#faboverlay').toggleClass('show');
+		$('.fabnav').toggleClass('show');
+	});
+
+	function side_close() {
+		$("#sidebtnclose").trigger('click');
+		hideOverlay();
+	}
+
+	function showOverlay() {
+		$("#myOverlay").css("display", "block");
+	}
+
+	function hideOverlay() {
+		$("#myOverlay").css("display", "none");
+	}
+</script>
+
+</body>
+
+</html>
